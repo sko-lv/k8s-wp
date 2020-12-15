@@ -5,7 +5,7 @@
 
 ### Run project
     minikube start 
-    kubernetes apply -f all_wp.yaml
-    kubernetes get deploy,rs,po,pv -o=wide
+    kubectl apply -f all_wp.yaml
+    kubectl get deploy,rs,po,pv -o=wide
     ...
     minikube stop
